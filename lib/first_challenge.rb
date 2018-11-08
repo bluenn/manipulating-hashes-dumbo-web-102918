@@ -19,7 +19,7 @@ def first_challenge
     info.each do |person_field, value|
       if person_field == :favorite_icecream_flavors
         value.delete_if do |flavor|
-          flavor == "strawberry"
+          flavor = "strawberry"
       end
     end
   end
