@@ -7,6 +7,6 @@ def second_challenge
   }
 nested_array = groceries.values
 nested_array.flatten
-  
+
 
 end
