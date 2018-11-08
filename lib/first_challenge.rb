@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   # contacts.each do |person, info|
-  # 
+  #
   #   info.each do |person_field, value|
   #     if person_field == :favorite_icecream_flavors
   #       value.delete_if do |flavor|
