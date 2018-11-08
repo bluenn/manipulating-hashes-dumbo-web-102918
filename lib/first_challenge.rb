@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
+  # first method, call loops at each level until get to array
+  #then use delete_if on array
   contacts.each do |person, info|
   
     info.each do |person_field, value|
@@ -24,11 +25,11 @@ def first_challenge
       end
     end
   end
-
-  #  icecream = contacts["Freddy Mercury"][:favorite_icecream_flavors]
-  #   icecream.delete_if do |flavor|
-  #     flavor = "strawberry"
-  #   end
+   #second method , just go directly to the array, then use delete_if
+   icecream = contacts["Freddy Mercury"][:favorite_icecream_flavors]
+    icecream.delete_if do |flavor|
+      flavor = "strawberry"
+    end
   #remember to return your newly altered contacts hash!
   contacts
 end
